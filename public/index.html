@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="stile.css">
+
+</head>
+
+<body>
+    <main>
+        <h1>LISTA DE TAREFAS</h1>
+
+        <div class="input-area">
+            <input type="text" id="input" placeholder="Nova tarefa...">
+            <button onclick="addTask()">Adicionar</button>
+        </div>
+        <div class="tarefas">
+            <card id="todo">
+                <strong>A fazer</strong>
+                <div class="list" id="a_fazer"></div>
+            </card>
+
+            <card id="doing">
+                <strong>Fazendo</strong>
+                <div class="list" id="fazendo"></div>
+            </card>
+
+            <card id="done">
+                <strong>Feito</strong>
+                <div class="list" id="feito"></div>
+            </card>
+        </div>
+
+        <button id="CLEAR">CLEAR</button>
+    </main>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>

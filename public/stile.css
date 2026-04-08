@@ -1,0 +1,121 @@
+   * {
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+       font-family: Arial, sans-serif;
+       font-size: 16px;
+   }
+
+   body {
+       background: linear-gradient(135deg, #667eea, #764ba2);
+       height: 100vh;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+
+   main {
+       background: white;
+       padding: 30px;
+       border-radius: 15px;
+       width: 1000px;
+       box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+   }
+
+   h1 {
+       text-align: center;
+       margin-bottom: 20px;
+       font-size: 24px;
+   }
+
+   .input-area {
+       display: flex;
+       gap: 10px;
+       margin-bottom: 20px;
+   }
+
+   input {
+       flex: 1;
+       padding: 10px;
+       border-radius: 8px;
+       border: 2px solid #ddd;
+   }
+
+   button {
+       padding: 10px;
+       border: none;
+       background: #667eea;
+       color: white;
+       border-radius: 8px;
+       cursor: pointer;
+   }
+
+   .tarefas{
+    display: flex;
+    justify-content: space-between;
+   }
+
+   card {
+       display: block;
+       padding: 15px;
+       margin-bottom: 10px;
+       border-radius: 10px;
+       width: 300px;
+       text-align: center;
+   }
+
+   #todo{
+    background-color: #d9d;
+   }
+
+   #doing{
+    background-color: rgb(91, 168, 168);
+   }
+
+   #done{
+    background-color: rgb(146, 184, 109);
+   }
+
+   .list {
+       min-height: 50px;
+       margin-top: 10px;
+   }
+
+   .task {
+       background: white;
+       padding: 8px;
+       margin-bottom: 5px;
+       border-radius: 6px;
+       cursor: grab;
+       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+       overflow-inline:  auto;
+   }
+
+   .dragging {
+       opacity: 0.5;
+   }
+
+   #CLEAR{
+    background-color: rgb(226, 28, 28);
+   }
+
+   .task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+img {
+    width: 24px;
+}
+
+.delete:hover {
+    transform: scale(1.2);
+}
